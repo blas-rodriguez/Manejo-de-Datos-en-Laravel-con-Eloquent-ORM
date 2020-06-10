@@ -8,4 +8,5 @@ class Citie extends Model
 {
     protected $table = 'cities';
     protected $primaryKey = 'city_id';
+    public $timestamps = false;
 }
